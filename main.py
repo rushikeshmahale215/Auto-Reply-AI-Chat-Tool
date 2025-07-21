@@ -7,7 +7,7 @@ import requests
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-newsapi = "e5aeb28f353441b08db060b71c68116f"
+newsapi = "News_API_Key"
 
 def speak(text):
      engine.say(text)
@@ -19,7 +19,7 @@ def aiProcess(command):
     from groq import Groq
 
     client = Groq(
-           api_key="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"
+           api_key="Groq_Api_Key"
             )
 
 
